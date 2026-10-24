@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">frNewsReader</string>
+    <string name="app_title">@string/app_name</string>
+    <string name="tab_france">France</string>
+    <string name="tab_international">International</string>
+    <string name="tab_technologies">Technologies</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="refresh_in_progress">En cours</string>
+    <string name="loading_articles">Votre édition se prépare</string>
+    <string name="loading_message">Récupération des articles auprès de vos sources…</string>
+    <string name="latest_articles">Le fil de l’actualité</string>
+    <string name="open_article">Lire sur le site de la source</string>
+    <string name="article_read">Article lu</string>
+    <string name="article_unread">Article non lu</string>
+    <string name="article_read_suffix"> · Lu</string>
+    <plurals name="edition_articles">
+        <item quantity="one">%1$d article · %2$s</item>
+        <item quantity="many">%1$d articles · %2$s</item>
+        <item quantity="other">%1$d articles · %2$s</item>
+    </plurals>
+    <plurals name="edition_sources">
+        <item quantity="one">%d source</item>
+        <item quantity="many">%d sources</item>
+        <item quantity="other">%d sources</item>
+    </plurals>
+    <string name="empty_title">Aucun article pour le moment</string>
+    <string name="empty_message">Appuyez sur « Actualiser » pour récupérer les dernières informations de vos sources.</string>
+    <string name="last_update">Mis à jour %1$s</string>
+    <string name="never_refreshed">Jamais actualisé</string>
+    <string name="time_just_now">à l\'instant</string>
+    <string name="time_yesterday">hier</string>
+    <plurals name="time_minutes">
+        <item quantity="one">il y a %d min</item>
+        <item quantity="many">il y a %d min</item>
+        <item quantity="other">il y a %d min</item>
+    </plurals>
+    <plurals name="time_hours">
+        <item quantity="one">il y a %d h</item>
+        <item quantity="many">il y a %d h</item>
+        <item quantity="other">il y a %d h</item>
+    </plurals>
+    <plurals name="time_days">
+        <item quantity="one">il y a %d jour</item>
+        <item quantity="many">il y a %d jours</item>
+        <item quantity="other">il y a %d jours</item>
+    </plurals>
+    <plurals name="refresh_new_articles">
+        <item quantity="one">%d nouvel article</item>
+        <item quantity="many">%d nouveaux articles</item>
+        <item quantity="other">%d nouveaux articles</item>
+    </plurals>
+    <string name="refresh_no_new_articles">Aucun nouvel article</string>
+    <string name="refresh_failed_sources">Sources indisponibles : %1$s</string>
+    <string name="refresh_offline">Impossible d\'actualiser. Vérifiez votre connexion Internet.</string>
+    <string name="no_browser">Aucun navigateur disponible pour ouvrir l\'article.</string>
+</resources>
